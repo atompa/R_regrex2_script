@@ -51,3 +51,7 @@
 [I 03:33:59.366 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+Websocket closed
+[I 03:38:06.591 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
