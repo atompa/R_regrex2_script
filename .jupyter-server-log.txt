@@ -1,0 +1,53 @@
+[I 03:22:49.053 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2021-07-05 03:22:50.139 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 03:22:50.140 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 03:22:50.140 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 03:22:50.140 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 03:22:50.140 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 03:22:50.141 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 03:22:50.141 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 03:22:50.141 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-05 03:22:50.141 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-07-05 03:22:50.141 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 03:22:50.141 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-07-05 03:22:50.142 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-07-05 03:22:50.150 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/jupyterlab
+[I 2021-07-05 03:22:50.151 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 03:22:50.157 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.8/site-packages/nteract_on_jupyter
+[I 03:22:50.159 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 03:22:50.160 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 03:22:50.160 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 03:22:50.160 NotebookApp] http://jupyter-atompa-2dregrex2-2dh8gsviff:8888/user/atompa-regrex2-h8gsviff/?token=...
+[I 03:22:50.160 NotebookApp]  or http://127.0.0.1:8888/user/atompa-regrex2-h8gsviff/?token=...
+[I 03:22:50.160 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 03:22:50.164 NotebookApp] No web browser found: could not locate runnable browser.
+[I 03:22:50.166 NotebookApp] 302 GET /user/atompa-regrex2-h8gsviff/ (10.2.0.200) 0.720000ms
+[I 03:22:52.801 NotebookApp] 302 GET /user/atompa-regrex2-h8gsviff/?token=60WWn4PzTXCFnaR_I9qrtQ (65.24.243.77) 1.480000ms
+[I 03:23:37.019 NotebookApp] Creating new notebook in 
+[I 03:23:37.030 NotebookApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[I 03:23:41.097 NotebookApp] Kernel started: cef3f67b-4e60-43dc-9763-634513f5c4d7, name: ir
+[I 03:23:41.098 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 03:23:41.098 NotebookApp] Culling kernels even with connected clients
+[I 03:23:41.923 NotebookApp] Adapting from protocol version 5.0 (kernel cef3f67b-4e60-43dc-9763-634513f5c4d7) to 5.3 (client).
+[I 03:23:52.166 NotebookApp] Uploading file to /regrex2.csv
+[I 03:25:41.130 NotebookApp] Saving file at /Untitled.ipynb
+[I 03:27:41.120 NotebookApp] Saving file at /Untitled.ipynb
+[I 03:29:41.119 NotebookApp] Saving file at /Untitled.ipynb
+[I 03:31:41.156 NotebookApp] Saving file at /Untitled.ipynb
+[W 03:32:04.873 NotebookApp] 404 GET /user/atompa-regrex2-h8gsviff/api/contents/Linear%20Model-%20R.ipynb?type=notebook&content=0&_=1625455419631 (65.24.243.77): No such file or directory: Linear Model- R.ipynb
+[W 03:32:04.874 NotebookApp] No such file or directory: Linear Model- R.ipynb
+[W 03:32:04.875 NotebookApp] 404 GET /user/atompa-regrex2-h8gsviff/api/contents/Linear%20Model-%20R.ipynb?type=notebook&content=0&_=1625455419631 (65.24.243.77) 3.170000ms referer=https://hub-binder.mybinder.ovh/user/atompa-regrex2-h8gsviff/notebooks/Untitled.ipynb?kernel_name=ir
+[I 03:32:05.016 NotebookApp] Uploading file to /Linear Model- R.ipynb
+[W 03:32:19.717 NotebookApp] Notebook Linear Model- R.ipynb is not trusted
+[I 03:32:48.471 NotebookApp] Uploading file to /Linear Model- R.html
+[I 03:33:26.542 NotebookApp] Starting buffering for cef3f67b-4e60-43dc-9763-634513f5c4d7:7afbe51e09b94d7d93ee25ace810a2e0
+[W 03:33:31.759 NotebookApp] Notebook Linear Model- R.ipynb is not trusted
+[I 03:33:32.688 NotebookApp] Adapting from protocol version 5.0 (kernel cef3f67b-4e60-43dc-9763-634513f5c4d7) to 5.3 (client).
+[I 03:33:35.817 NotebookApp] Starting buffering for cef3f67b-4e60-43dc-9763-634513f5c4d7:261d542be53c4ed5bd6bf53bd8b3ff45
+[W 03:33:46.876 NotebookApp] delete /Untitled.ipynb
+[W 03:33:50.166 NotebookApp] Notebook Linear Model- R.ipynb is not trusted
+[I 03:33:50.855 NotebookApp] Adapting from protocol version 5.0 (kernel cef3f67b-4e60-43dc-9763-634513f5c4d7) to 5.3 (client).
+[I 03:33:54.158 NotebookApp] Starting buffering for cef3f67b-4e60-43dc-9763-634513f5c4d7:2eebd856ac054e1585bec1d048f942d8
+[I 03:33:59.366 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
